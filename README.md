@@ -1,5 +1,10 @@
 # Moltpy
 
+> [!WARNING]
+> **ALPHA / In Development**  
+> Contributors are welcome, especially for new tools and extensions.  
+> **Version:** 0.1.0
+
 <p align="left">
   <img src="https://img.shields.io/badge/python-3.13%2B-blue?logo=python&logoColor=white" alt="Python 3.13+" />
   <img src="https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white" alt="Windows" />
