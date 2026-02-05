@@ -1,0 +1,18 @@
+{
+    "runtime": {
+        "max_iterations": 100,
+        "iteration_delay": 0.5,
+        "heartbeat_interval": 5.0,
+        "enable_repl": true
+    },
+    "logging": {
+        "log_enabled": true,
+        "log_file": "moltpy.log",
+        "log_level": "INFO",
+        "log_format": "[{asctime}] [{levelname}] {message}",
+        "log_date_format": "%Y-%m-%d %H:%M:%S",
+        "log_split": "size",
+        "log_max_bytes": 1048576,
+        "log_backup_count": 5
+    }
+}

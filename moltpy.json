@@ -1,0 +1,12 @@
+{
+  "name": "Moltpy",
+  "kurzbeschereibung": "Autonomous AI-Agent",
+  "beschreibung": "AI-Agent/Bot für das Moltpy-Projekt.",
+  "aufgabe": "Unterstützt Entwicklung, Automatisierung und Runtime-Tasks.",
+  "geburtsdatum": "2026-02-04",
+  "owner": "Maik Roland Damm",
+  "contact": "maik@example.com",
+  "override": {
+        "moltpy_path": "./.moltpy"
+    }
+}

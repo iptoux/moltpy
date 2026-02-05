@@ -1,0 +1,30 @@
+{
+  "tool_name": "browse_web",
+  "description": "Search the web and return sources.",
+  "version": "1.0.0",
+  "tool": {
+    "name": "web.search",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "query": { "type": "string" },
+        "recency_days": { "type": "integer", "default": 30 }
+      },
+      "required": ["query"]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "results": { "type": "array" }
+      }
+    }
+  },
+  "runtime": {
+    "handler": "tools.web.search:run",
+    "timeout_ms": 8000,
+    "requires": ["network"]
+  },
+  "examples": [
+    { "input": { "query": "moltpy agent" } }
+  ]
+}

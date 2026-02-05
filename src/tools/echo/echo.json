@@ -1,0 +1,29 @@
+{
+  "tool_name": "echo",
+  "description": "Echoes the provided text.",
+  "version": "1.0.0",
+  "tool": {
+    "name": "echo",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string" }
+      },
+      "required": ["text"]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string" }
+      }
+    }
+  },
+  "runtime": {
+    "handler": "tools.echo.echo:run",
+    "timeout_ms": 1000,
+    "requires": []
+  },
+  "examples": [
+    { "input": { "text": "Hello Moltpy" } }
+  ]
+}
