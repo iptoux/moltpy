@@ -49,7 +49,7 @@ After starting, the console opens. Use `help` to list commands.
 - Runtime singleton: `src/core/bootstrap/Runtime.py`
 - Heartbeat loop: `src/core/heartbeat/Heartbeat.py`
 - TUI: `src/tui/Tui.py`
-- Tool system: `src/core/tools/` and `src/tools/`
+- Tool system: `src/core/tools/` and `~/.moltpy/tools/`
 - Agent profile: `moltpy.json`
 
 ## 🔧 Configuration
